@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86f0663d2a5a4480a715701dddb11ed6" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.ContractParty" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Dealer" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Party" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Project" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Transaction" Width="1.5" PointX="8.25" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK_ContractParty_ToParties" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_ContractParty_ToProject" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Dealer_ToParties" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Transactions_ToPayerParty" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Transactions_ToRecipientParty" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.ProjectsToParties" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Transactions_ToProjects" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

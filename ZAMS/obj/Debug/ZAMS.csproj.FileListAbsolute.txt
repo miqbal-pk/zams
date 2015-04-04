@@ -1,0 +1,156 @@
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\ZAMS.exe
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\ZAMS.exe.config
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.Companies.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.exe
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.pdb
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\ZAMS.pdb
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.NewProject.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.Dealer.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\Database1.mdf
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\Database1_log.ldf
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\EntityFramework.dll
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\EntityFramework.xml
+F:\work1\Project\VS\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.Projects.resources
+F:\work1\Project\VS\ZAMS\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+F:\projects\ZAMS\ZAMS\bin\Debug\ZAMS.exe.config
+F:\projects\ZAMS\ZAMS\bin\Debug\ZAMS.exe
+F:\projects\ZAMS\ZAMS\bin\Debug\ZAMS.pdb
+F:\projects\ZAMS\ZAMS\bin\Debug\EntityFramework.dll
+F:\projects\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+F:\projects\ZAMS\ZAMS\bin\Debug\EntityFramework.xml
+F:\projects\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.Companies.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.Dealer.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.NewProject.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.Projects.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.exe
+F:\projects\ZAMS\ZAMS\obj\Debug\ZAMS.pdb
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\ZAMS.exe
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\EntityFramework.dll
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\ZAMS.exe.config
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\EntityFramework.xml
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.Companies.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.Dealer.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.NewProject.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.Projects.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.exe
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.pdb
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\bin\Debug\ZAMS.pdb
+C:\Users\Sheikh-PC\Desktop\ZAMS\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+F:\ZAMS\ZAMS\bin\Debug\ZAMS.exe.config
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.exe
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.pdb
+F:\ZAMS\ZAMS\bin\Debug\ZAMS.exe
+F:\ZAMS\ZAMS\bin\Debug\ZAMS.pdb
+F:\ZAMS\ZAMS\bin\Debug\EntityFramework.dll
+F:\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+F:\ZAMS\ZAMS\bin\Debug\EntityFramework.xml
+F:\ZAMS\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.Companies.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.Dealer.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.NewProject.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.Projects.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+F:\ZAMS\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache
+J:\zams\ZAMS\bin\Debug\ZAMS.exe.config
+J:\zams\ZAMS\obj\Debug\ZAMS.exe
+J:\zams\ZAMS\obj\Debug\ZAMS.pdb
+J:\zams\ZAMS\bin\Debug\ZAMS.exe
+J:\zams\ZAMS\bin\Debug\ZAMS.pdb
+J:\zams\ZAMS\bin\Debug\EntityFramework.dll
+J:\zams\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+J:\zams\ZAMS\bin\Debug\EntityFramework.xml
+J:\zams\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+J:\zams\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+J:\zams\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.Companies.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.Dealer.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.NewProject.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.Projects.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+J:\zams\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\ZAMS.exe
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.dll
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\ZAMS.exe.config
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.xml
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Companies.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Dealer.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.NewProject.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Projects.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.exe
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.pdb
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\bin\Debug\ZAMS.pdb
+C:\Users\Sheikh-PC\Desktop\Newest zams\zams\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+G:\Newest zams\zams\ZAMS\bin\Debug\ZAMS.exe.config
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.exe
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.pdb
+G:\Newest zams\zams\ZAMS\bin\Debug\ZAMS.exe
+G:\Newest zams\zams\ZAMS\bin\Debug\ZAMS.pdb
+G:\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.dll
+G:\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.SqlServer.dll
+G:\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.xml
+G:\Newest zams\zams\ZAMS\bin\Debug\EntityFramework.SqlServer.xml
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.csprojResolveAssemblyReference.cache
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.BaseControl.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.ParentForm.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Properties.Resources.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Companies.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Dealer.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.NewCompany.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.NewDealer.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.NewProject.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.Projects.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.ReportHome.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.SearchTransactions.resources
+G:\Newest zams\zams\ZAMS\obj\Debug\ZAMS.csproj.GenerateResource.Cache

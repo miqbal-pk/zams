@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Database1Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="Database1ModelStoreContainer">
+          <EntitySet Name="ContractParty" EntityType="Database1Model.Store.ContractParty" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Dealer" EntityType="Database1Model.Store.Dealer" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Parties" EntityType="Database1Model.Store.Parties" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Projects" EntityType="Database1Model.Store.Projects" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Transactions" EntityType="Database1Model.Store.Transactions" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ContractParty_ToParties" Association="Database1Model.Store.FK_ContractParty_ToParties">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="ContractParty" EntitySet="ContractParty" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContractParty_ToProject" Association="Database1Model.Store.FK_ContractParty_ToProject">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="ContractParty" EntitySet="ContractParty" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Dealer_ToParties" Association="Database1Model.Store.FK_Dealer_ToParties">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Dealer" EntitySet="Dealer" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transactions_ToPayerParty" Association="Database1Model.Store.FK_Transactions_ToPayerParty">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Transactions" EntitySet="Transactions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transactions_ToProjects" Association="Database1Model.Store.FK_Transactions_ToProjects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Transactions" EntitySet="Transactions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transactions_ToRecipientParty" Association="Database1Model.Store.FK_Transactions_ToRecipientParty">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Transactions" EntitySet="Transactions" />
+          </AssociationSet>
+          <AssociationSet Name="ProjectsToParties" Association="Database1Model.Store.ProjectsToParties">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Projects" EntitySet="Projects" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ContractParty">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+            <PropertyRef Name="PartyId" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+          <Property Name="PartyId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Dealer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DealerName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="CNIC" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="EmailId" Type="varchar" MaxLength="50" />
+          <Property Name="PhoneNumber" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Address" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PartyId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Parties">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Party Name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Location" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="PhoneNumber" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FaxNumber" Type="varchar" MaxLength="50" />
+          <Property Name="OwnerName" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Projects">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="OwnerPartyId" Type="int" Nullable="false" />
+          <Property Name="EstimatedStartDate" Type="date" />
+          <Property Name="StartDate" Type="date" Nullable="false" />
+          <Property Name="ProjectName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="EstimatedEndDate" Type="date" />
+          <Property Name="EndDate" Type="date" />
+          <Property Name="Status" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="InitialBalance" Type="bigint" Nullable="false" />
+          <Property Name="CurrentBalance" Type="bigint" Nullable="false" />
+          <Property Name="Credit" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Transactions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Amount" Type="bigint" Nullable="false" />
+          <Property Name="TransactionType" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="varchar" MaxLength="50" />
+          <Property Name="OtherDetails" Type="varchar" MaxLength="50" />
+          <Property Name="DateTime" Type="datetime" Nullable="false" />
+          <Property Name="PayerId" Type="int" Nullable="false" />
+          <Property Name="RecipientId" Type="int" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_ContractParty_ToParties">
+          <End Role="Parties" Type="Database1Model.Store.Parties" Multiplicity="1" />
+          <End Role="ContractParty" Type="Database1Model.Store.ContractParty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractParty">
+              <PropertyRef Name="PartyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContractParty_ToProject">
+          <End Role="Projects" Type="Database1Model.Store.Projects" Multiplicity="1" />
+          <End Role="ContractParty" Type="Database1Model.Store.ContractParty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractParty">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Dealer_ToParties">
+          <End Role="Parties" Type="Database1Model.Store.Parties" Multiplicity="1" />
+          <End Role="Dealer" Type="Database1Model.Store.Dealer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Dealer">
+              <PropertyRef Name="PartyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transactions_ToPayerParty">
+          <End Role="Parties" Type="Database1Model.Store.Parties" Multiplicity="1" />
+          <End Role="Transactions" Type="Database1Model.Store.Transactions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Transactions">
+              <PropertyRef Name="PayerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transactions_ToProjects">
+          <End Role="Projects" Type="Database1Model.Store.Projects" Multiplicity="1" />
+          <End Role="Transactions" Type="Database1Model.Store.Transactions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Transactions">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transactions_ToRecipientParty">
+          <End Role="Parties" Type="Database1Model.Store.Parties" Multiplicity="1" />
+          <End Role="Transactions" Type="Database1Model.Store.Transactions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Transactions">
+              <PropertyRef Name="RecipientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ProjectsToParties">
+          <End Role="Parties" Type="Database1Model.Store.Parties" Multiplicity="1" />
+          <End Role="Projects" Type="Database1Model.Store.Projects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects">
+              <PropertyRef Name="OwnerPartyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Database1Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Database1Entities1" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="ContractParties" EntityType="Database1Model.ContractParty" />
+          <EntitySet Name="Dealers" EntityType="Database1Model.Dealer" />
+          <EntitySet Name="Parties" EntityType="Database1Model.Party" />
+          <EntitySet Name="Projects" EntityType="Database1Model.Project" />
+          <EntitySet Name="Transactions" EntityType="Database1Model.Transaction" />
+          <AssociationSet Name="FK_ContractParty_ToParties" Association="Database1Model.FK_ContractParty_ToParties">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="ContractParty" EntitySet="ContractParties" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ContractParty_ToProject" Association="Database1Model.FK_ContractParty_ToProject">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="ContractParty" EntitySet="ContractParties" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Dealer_ToParties" Association="Database1Model.FK_Dealer_ToParties">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Dealer" EntitySet="Dealers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transactions_ToPayerParty" Association="Database1Model.FK_Transactions_ToPayerParty">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Transactions" EntitySet="Transactions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transactions_ToRecipientParty" Association="Database1Model.FK_Transactions_ToRecipientParty">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Transactions" EntitySet="Transactions" />
+          </AssociationSet>
+          <AssociationSet Name="ProjectsToParties" Association="Database1Model.ProjectsToParties">
+            <End Role="Parties" EntitySet="Parties" />
+            <End Role="Projects" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Transactions_ToProjects" Association="Database1Model.FK_Transactions_ToProjects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Transactions" EntitySet="Transactions" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ContractParty">
+          <Key>
+            <PropertyRef Name="ProjectId" />
+            <PropertyRef Name="PartyId" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <Property Name="PartyId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Party" Relationship="Database1Model.FK_ContractParty_ToParties" FromRole="ContractParty" ToRole="Parties" />
+          <NavigationProperty Name="Project" Relationship="Database1Model.FK_ContractParty_ToProject" FromRole="ContractParty" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Dealer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="DealerName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CNIC" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="EmailId" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PartyId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Party" Relationship="Database1Model.FK_Dealer_ToParties" FromRole="Dealer" ToRole="Parties" />
+        </EntityType>
+        <EntityType Name="Party">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Party_Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Location" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FaxNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="OwnerName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="ContractParties" Relationship="Database1Model.FK_ContractParty_ToParties" FromRole="Parties" ToRole="ContractParty" />
+          <NavigationProperty Name="Dealers" Relationship="Database1Model.FK_Dealer_ToParties" FromRole="Parties" ToRole="Dealer" />
+          <NavigationProperty Name="Transactions" Relationship="Database1Model.FK_Transactions_ToPayerParty" FromRole="Parties" ToRole="Transactions" />
+          <NavigationProperty Name="Transactions1" Relationship="Database1Model.FK_Transactions_ToRecipientParty" FromRole="Parties" ToRole="Transactions" />
+          <NavigationProperty Name="Projects" Relationship="Database1Model.ProjectsToParties" FromRole="Parties" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="OwnerPartyId" Type="Int32" Nullable="false" />
+          <Property Name="EstimatedStartDate" Type="DateTime" Precision="0" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ProjectName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="EstimatedEndDate" Type="DateTime" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Precision="0" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="InitialBalance" Type="Int64" Nullable="false" />
+          <Property Name="CurrentBalance" Type="Int64" Nullable="false" />
+          <Property Name="Credit" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="ContractParties" Relationship="Database1Model.FK_ContractParty_ToProject" FromRole="Projects" ToRole="ContractParty" />
+          <NavigationProperty Name="Party" Relationship="Database1Model.ProjectsToParties" FromRole="Projects" ToRole="Parties" />
+          <NavigationProperty Name="Transactions" Relationship="Database1Model.FK_Transactions_ToProjects" FromRole="Projects" ToRole="Transactions" />
+        </EntityType>
+        <EntityType Name="Transaction">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Amount" Type="Int64" Nullable="false" />
+          <Property Name="TransactionType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="OtherDetails" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="DateTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PayerId" Type="Int32" Nullable="false" />
+          <Property Name="RecipientId" Type="Int32" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Party" Relationship="Database1Model.FK_Transactions_ToPayerParty" FromRole="Transactions" ToRole="Parties" />
+          <NavigationProperty Name="Party1" Relationship="Database1Model.FK_Transactions_ToRecipientParty" FromRole="Transactions" ToRole="Parties" />
+          <NavigationProperty Name="Project" Relationship="Database1Model.FK_Transactions_ToProjects" FromRole="Transactions" ToRole="Projects" />
+        </EntityType>
+        <Association Name="FK_ContractParty_ToParties">
+          <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
+          <End Role="ContractParty" Type="Database1Model.ContractParty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractParty">
+              <PropertyRef Name="PartyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ContractParty_ToProject">
+          <End Role="Projects" Type="Database1Model.Project" Multiplicity="1" />
+          <End Role="ContractParty" Type="Database1Model.ContractParty" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ContractParty">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Dealer_ToParties">
+          <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
+          <End Role="Dealer" Type="Database1Model.Dealer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Dealer">
+              <PropertyRef Name="PartyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transactions_ToPayerParty">
+          <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
+          <End Role="Transactions" Type="Database1Model.Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Transactions">
+              <PropertyRef Name="PayerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transactions_ToRecipientParty">
+          <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
+          <End Role="Transactions" Type="Database1Model.Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Transactions">
+              <PropertyRef Name="RecipientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ProjectsToParties">
+          <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
+          <End Role="Projects" Type="Database1Model.Project" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Parties">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects">
+              <PropertyRef Name="OwnerPartyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Transactions_ToProjects">
+          <End Role="Projects" Type="Database1Model.Project" Multiplicity="1" />
+          <End Role="Transactions" Type="Database1Model.Transaction" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Transactions">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
+          <EntitySetMapping Name="ContractParties">
+            <EntityTypeMapping TypeName="Database1Model.ContractParty">
+              <MappingFragment StoreEntitySet="ContractParty">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="PartyId" ColumnName="PartyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dealers">
+            <EntityTypeMapping TypeName="Database1Model.Dealer">
+              <MappingFragment StoreEntitySet="Dealer">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="DealerName" ColumnName="DealerName" />
+                <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="PartyId" ColumnName="PartyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Parties">
+            <EntityTypeMapping TypeName="Database1Model.Party">
+              <MappingFragment StoreEntitySet="Parties">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Party_Name" ColumnName="Party Name" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+                <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Projects">
+            <EntityTypeMapping TypeName="Database1Model.Project">
+              <MappingFragment StoreEntitySet="Projects">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="OwnerPartyId" ColumnName="OwnerPartyId" />
+                <ScalarProperty Name="EstimatedStartDate" ColumnName="EstimatedStartDate" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+                <ScalarProperty Name="EstimatedEndDate" ColumnName="EstimatedEndDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="InitialBalance" ColumnName="InitialBalance" />
+                <ScalarProperty Name="CurrentBalance" ColumnName="CurrentBalance" />
+                <ScalarProperty Name="Credit" ColumnName="Credit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Transactions">
+            <EntityTypeMapping TypeName="Database1Model.Transaction">
+              <MappingFragment StoreEntitySet="Transactions">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="OtherDetails" ColumnName="OtherDetails" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+                <ScalarProperty Name="PayerId" ColumnName="PayerId" />
+                <ScalarProperty Name="RecipientId" ColumnName="RecipientId" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
