@@ -1,40 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="Database1Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityContainer Name="Database1Entities1" p1:LazyLoadingEnabled="true">
-    <EntitySet Name="ContractParties" EntityType="Database1Model.ContractParty" />
-    <EntitySet Name="Dealers" EntityType="Database1Model.Dealer" />
-    <EntitySet Name="Parties" EntityType="Database1Model.Party" />
-    <EntitySet Name="Projects" EntityType="Database1Model.Project" />
-    <EntitySet Name="Transactions" EntityType="Database1Model.Transaction" />
-    <AssociationSet Name="FK_ContractParty_ToParties" Association="Database1Model.FK_ContractParty_ToParties">
+<Schema Namespace="ZamsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ZamsEntities6" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Banks" EntityType="ZamsModel.Bank" />
+    <EntitySet Name="BankTransactions" EntityType="ZamsModel.BankTransaction" />
+    <EntitySet Name="ContractParties" EntityType="ZamsModel.ContractParty" />
+    <EntitySet Name="Logins" EntityType="ZamsModel.Login" />
+    <EntitySet Name="Parties" EntityType="ZamsModel.Party" />
+    <EntitySet Name="PettyCashes" EntityType="ZamsModel.PettyCash" />
+    <EntitySet Name="Projects" EntityType="ZamsModel.Project" />
+    <EntitySet Name="Transactions" EntityType="ZamsModel.Transaction" />
+    <AssociationSet Name="FK_BankTransactions_Banks1" Association="ZamsModel.FK_BankTransactions_Banks1">
+      <End Role="Banks" EntitySet="Banks" />
+      <End Role="BankTransactions" EntitySet="BankTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ContractParty_ToParties" Association="ZamsModel.FK_ContractParty_ToParties">
       <End Role="Parties" EntitySet="Parties" />
       <End Role="ContractParty" EntitySet="ContractParties" />
     </AssociationSet>
-    <AssociationSet Name="FK_ContractParty_ToProject" Association="Database1Model.FK_ContractParty_ToProject">
+    <AssociationSet Name="FK_ContractParty_ToProject" Association="ZamsModel.FK_ContractParty_ToProject">
       <End Role="Projects" EntitySet="Projects" />
       <End Role="ContractParty" EntitySet="ContractParties" />
     </AssociationSet>
-    <AssociationSet Name="FK_Dealer_ToParties" Association="Database1Model.FK_Dealer_ToParties">
-      <End Role="Parties" EntitySet="Parties" />
-      <End Role="Dealer" EntitySet="Dealers" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Transactions_ToPayerParty" Association="Database1Model.FK_Transactions_ToPayerParty">
+    <AssociationSet Name="FK_Transactions_ToRecipientParty" Association="ZamsModel.FK_Transactions_ToRecipientParty">
       <End Role="Parties" EntitySet="Parties" />
       <End Role="Transactions" EntitySet="Transactions" />
     </AssociationSet>
-    <AssociationSet Name="FK_Transactions_ToRecipientParty" Association="Database1Model.FK_Transactions_ToRecipientParty">
-      <End Role="Parties" EntitySet="Parties" />
-      <End Role="Transactions" EntitySet="Transactions" />
-    </AssociationSet>
-    <AssociationSet Name="ProjectsToParties" Association="Database1Model.ProjectsToParties">
+    <AssociationSet Name="ProjectsToParties" Association="ZamsModel.ProjectsToParties">
       <End Role="Parties" EntitySet="Parties" />
       <End Role="Projects" EntitySet="Projects" />
     </AssociationSet>
-    <AssociationSet Name="FK_Transactions_ToProjects" Association="Database1Model.FK_Transactions_ToProjects">
+    <AssociationSet Name="FK_Transactions_ToProjects" Association="ZamsModel.FK_Transactions_ToProjects">
       <End Role="Projects" EntitySet="Projects" />
       <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <EntitySet Name="ReverseEntries" EntityType="ZamsModel.ReverseEntry" />
+    <AssociationSet Name="FK_ReverseEntries_Transactions" Association="ZamsModel.FK_ReverseEntries_Transactions">
+      <End Role="Transaction" EntitySet="Transactions" />
+      <End Role="ReverseEntry" EntitySet="ReverseEntries" />
     </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="BankName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Branch" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="AccountNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Balance" Type="Int64" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="AccountTitle" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="OtherDetail" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="BankTransactions" Relationship="ZamsModel.FK_BankTransactions_Banks1" FromRole="Banks" ToRole="BankTransactions" />
+  </EntityType>
+  <EntityType Name="BankTransaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="3000" Unicode="false" FixedLength="false" />
+    <Property Name="Amount" Type="Int64" Nullable="false" />
+    <Property Name="Balance" Type="Int64" Nullable="false" />
+    <Property Name="AllBankBalance" Type="Int64" Nullable="false" />
+    <Property Name="OtherDetail" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TransactionType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BankId" Type="Int32" Nullable="false" />
+    <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Bank" Relationship="ZamsModel.FK_BankTransactions_Banks1" FromRole="BankTransactions" ToRole="Banks" />
+    <Property Type="String" Name="RefID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
   <EntityType Name="ContractParty">
     <Key>
       <PropertyRef Name="ProjectId" />
@@ -43,21 +79,19 @@
     <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
     <Property Name="ProjectId" Type="Int32" Nullable="false" />
     <Property Name="PartyId" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Party" Relationship="Database1Model.FK_ContractParty_ToParties" FromRole="ContractParty" ToRole="Parties" />
-    <NavigationProperty Name="Project" Relationship="Database1Model.FK_ContractParty_ToProject" FromRole="ContractParty" ToRole="Projects" />
+    <NavigationProperty Name="Party" Relationship="ZamsModel.FK_ContractParty_ToParties" FromRole="ContractParty" ToRole="Parties" />
+    <NavigationProperty Name="Project" Relationship="ZamsModel.FK_ContractParty_ToProject" FromRole="ContractParty" ToRole="Projects" />
   </EntityType>
-  <EntityType Name="Dealer">
+  <EntityType Name="Login">
     <Key>
-      <PropertyRef Name="Id" />
+      <PropertyRef Name="UserName" />
     </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
-    <Property Name="DealerName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-    <Property Name="CNIC" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-    <Property Name="EmailId" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
-    <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-    <Property Name="Address" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-    <Property Name="PartyId" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Party" Relationship="Database1Model.FK_Dealer_ToParties" FromRole="Dealer" ToRole="Parties" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Name" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="AccessSpecifier" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
   </EntityType>
   <EntityType Name="Party">
     <Key>
@@ -70,11 +104,26 @@
     <Property Name="FaxNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
     <Property Name="OwnerName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
     <Property Name="Email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
-    <NavigationProperty Name="ContractParties" Relationship="Database1Model.FK_ContractParty_ToParties" FromRole="Parties" ToRole="ContractParty" />
-    <NavigationProperty Name="Dealers" Relationship="Database1Model.FK_Dealer_ToParties" FromRole="Parties" ToRole="Dealer" />
-    <NavigationProperty Name="Transactions" Relationship="Database1Model.FK_Transactions_ToPayerParty" FromRole="Parties" ToRole="Transactions" />
-    <NavigationProperty Name="Transactions1" Relationship="Database1Model.FK_Transactions_ToRecipientParty" FromRole="Parties" ToRole="Transactions" />
-    <NavigationProperty Name="Projects" Relationship="Database1Model.ProjectsToParties" FromRole="Parties" ToRole="Projects" />
+    <Property Name="CompanyBalance" Type="Int64" />
+    <Property Name="CompanyType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="ContractParties" Relationship="ZamsModel.FK_ContractParty_ToParties" FromRole="Parties" ToRole="ContractParty" />
+    <NavigationProperty Name="Transactions" Relationship="ZamsModel.FK_Transactions_ToRecipientParty" FromRole="Parties" ToRole="Transactions" />
+    <NavigationProperty Name="Projects" Relationship="ZamsModel.ProjectsToParties" FromRole="Parties" ToRole="Projects" />
+    <Property Type="String" Name="CNIC_NTN" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PettyCash">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Amount" Type="Int64" Nullable="false" />
+    <Property Name="Balance" Type="Int64" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="3000" Unicode="false" FixedLength="false" />
+    <Property Name="TransactionType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OtherDetail" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Type="String" Name="RefID" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Project">
     <Key>
@@ -91,9 +140,9 @@
     <Property Name="InitialBalance" Type="Int64" Nullable="false" />
     <Property Name="CurrentBalance" Type="Int64" Nullable="false" />
     <Property Name="Credit" Type="Int64" Nullable="false" />
-    <NavigationProperty Name="ContractParties" Relationship="Database1Model.FK_ContractParty_ToProject" FromRole="Projects" ToRole="ContractParty" />
-    <NavigationProperty Name="Party" Relationship="Database1Model.ProjectsToParties" FromRole="Projects" ToRole="Parties" />
-    <NavigationProperty Name="Transactions" Relationship="Database1Model.FK_Transactions_ToProjects" FromRole="Projects" ToRole="Transactions" />
+    <NavigationProperty Name="ContractParties" Relationship="ZamsModel.FK_ContractParty_ToProject" FromRole="Projects" ToRole="ContractParty" />
+    <NavigationProperty Name="Party" Relationship="ZamsModel.ProjectsToParties" FromRole="Projects" ToRole="Parties" />
+    <NavigationProperty Name="Transactions" Relationship="ZamsModel.FK_Transactions_ToProjects" FromRole="Projects" ToRole="Transactions" />
   </EntityType>
   <EntityType Name="Transaction">
     <Key>
@@ -102,19 +151,35 @@
     <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
     <Property Name="Amount" Type="Int64" Nullable="false" />
     <Property Name="TransactionType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-    <Property Name="Description" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
     <Property Name="OtherDetails" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
     <Property Name="DateTime" Type="DateTime" Nullable="false" Precision="3" />
-    <Property Name="PayerId" Type="Int32" Nullable="false" />
-    <Property Name="RecipientId" Type="Int32" Nullable="false" />
+    <Property Name="PartyId" Type="Int32" Nullable="false" />
     <Property Name="ProjectId" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Party" Relationship="Database1Model.FK_Transactions_ToPayerParty" FromRole="Transactions" ToRole="Parties" />
-    <NavigationProperty Name="Party1" Relationship="Database1Model.FK_Transactions_ToRecipientParty" FromRole="Transactions" ToRole="Parties" />
-    <NavigationProperty Name="Project" Relationship="Database1Model.FK_Transactions_ToProjects" FromRole="Transactions" ToRole="Projects" />
+    <Property Name="PaymentType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Balance" Type="Int64" Nullable="false" />
+    <Property Name="TransactionBalance" Type="Int64" Nullable="false" />
+    <Property Name="CompanyBalance" Type="Int64" />
+    <NavigationProperty Name="Party" Relationship="ZamsModel.FK_Transactions_ToRecipientParty" FromRole="Transactions" ToRole="Parties" />
+    <NavigationProperty Name="Project" Relationship="ZamsModel.FK_Transactions_ToProjects" FromRole="Transactions" ToRole="Projects" />
+    <NavigationProperty Name="ReverseEntries" Relationship="ZamsModel.FK_ReverseEntries_Transactions" FromRole="Transaction" ToRole="ReverseEntry" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
+  <Association Name="FK_BankTransactions_Banks1">
+    <End Role="Banks" Type="ZamsModel.Bank" Multiplicity="1" />
+    <End Role="BankTransactions" Type="ZamsModel.BankTransaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banks">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BankTransactions">
+        <PropertyRef Name="BankId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_ContractParty_ToParties">
-    <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
-    <End Role="ContractParty" Type="Database1Model.ContractParty" Multiplicity="*" />
+    <End Role="Parties" Type="ZamsModel.Party" Multiplicity="1" />
+    <End Role="ContractParty" Type="ZamsModel.ContractParty" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Parties">
         <PropertyRef Name="Id" />
@@ -125,8 +190,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ContractParty_ToProject">
-    <End Role="Projects" Type="Database1Model.Project" Multiplicity="1" />
-    <End Role="ContractParty" Type="Database1Model.ContractParty" Multiplicity="*" />
+    <End Role="Projects" Type="ZamsModel.Project" Multiplicity="1" />
+    <End Role="ContractParty" Type="ZamsModel.ContractParty" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Projects">
         <PropertyRef Name="Id" />
@@ -136,45 +201,21 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Dealer_ToParties">
-    <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
-    <End Role="Dealer" Type="Database1Model.Dealer" Multiplicity="*" />
+  <Association Name="FK_Transactions_ToRecipientParty">
+    <End Role="Parties" Type="ZamsModel.Party" Multiplicity="1" />
+    <End Role="Transactions" Type="ZamsModel.Transaction" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Parties">
         <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="Dealer">
+      <Dependent Role="Transactions">
         <PropertyRef Name="PartyId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Transactions_ToPayerParty">
-    <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
-    <End Role="Transactions" Type="Database1Model.Transaction" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Parties">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Transactions">
-        <PropertyRef Name="PayerId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Transactions_ToRecipientParty">
-    <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
-    <End Role="Transactions" Type="Database1Model.Transaction" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Parties">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Transactions">
-        <PropertyRef Name="RecipientId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="ProjectsToParties">
-    <End Role="Parties" Type="Database1Model.Party" Multiplicity="1" />
-    <End Role="Projects" Type="Database1Model.Project" Multiplicity="*" />
+    <End Role="Parties" Type="ZamsModel.Party" Multiplicity="1" />
+    <End Role="Projects" Type="ZamsModel.Project" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Parties">
         <PropertyRef Name="Id" />
@@ -185,14 +226,38 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Transactions_ToProjects">
-    <End Role="Projects" Type="Database1Model.Project" Multiplicity="1" />
-    <End Role="Transactions" Type="Database1Model.Transaction" Multiplicity="*" />
+    <End Role="Projects" Type="ZamsModel.Project" Multiplicity="1" />
+    <End Role="Transactions" Type="ZamsModel.Transaction" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Projects">
         <PropertyRef Name="Id" />
       </Principal>
       <Dependent Role="Transactions">
         <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ReverseEntry">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int64" Name="Id" Nullable="false" />
+    <Property Type="Int64" Name="ReverseID" Nullable="false" />
+    <Property Type="String" Name="TableName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="Amount" Nullable="false" />
+    <Property Type="DateTime" Name="trDate" Precision="3" />
+    <Property Type="Int32" Name="TransactionID" />
+    <NavigationProperty Name="Transaction" Relationship="ZamsModel.FK_ReverseEntries_Transactions" FromRole="ReverseEntry" ToRole="Transaction" />
+  </EntityType>
+  <Association Name="FK_ReverseEntries_Transactions">
+    <End Type="ZamsModel.Transaction" Role="Transaction" Multiplicity="0..1" />
+    <End Type="ZamsModel.ReverseEntry" Role="ReverseEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ReverseEntry">
+        <PropertyRef Name="TransactionID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

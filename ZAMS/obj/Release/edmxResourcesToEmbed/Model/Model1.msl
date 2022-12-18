@@ -1,8 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
+  <EntityContainerMapping StorageEntityContainer="ZamsModelStoreContainer" CdmEntityContainer="ZamsEntities6">
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="ZamsModel.Bank">
+        <MappingFragment StoreEntitySet="Banks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="AccountTitle" ColumnName="AccountTitle" />
+          <ScalarProperty Name="OtherDetail" ColumnName="OtherDetail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BankTransactions">
+      <EntityTypeMapping TypeName="ZamsModel.BankTransaction">
+        <MappingFragment StoreEntitySet="BankTransactions">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="RefID" ColumnName="RefID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="AllBankBalance" ColumnName="AllBankBalance" />
+          <ScalarProperty Name="OtherDetail" ColumnName="OtherDetail" />
+          <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="ContractParties">
-      <EntityTypeMapping TypeName="Database1Model.ContractParty">
+      <EntityTypeMapping TypeName="ZamsModel.ContractParty">
         <MappingFragment StoreEntitySet="ContractParty">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
@@ -10,22 +42,22 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Dealers">
-      <EntityTypeMapping TypeName="Database1Model.Dealer">
-        <MappingFragment StoreEntitySet="Dealer">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="DealerName" ColumnName="DealerName" />
-          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
-          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="ZamsModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
           <ScalarProperty Name="Address" ColumnName="Address" />
-          <ScalarProperty Name="PartyId" ColumnName="PartyId" />
+          <ScalarProperty Name="AccessSpecifier" ColumnName="AccessSpecifier" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Parties">
-      <EntityTypeMapping TypeName="Database1Model.Party">
+      <EntityTypeMapping TypeName="ZamsModel.Party">
         <MappingFragment StoreEntitySet="Parties">
+          <ScalarProperty Name="CNIC_NTN" ColumnName="CNIC/NTN" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Party_Name" ColumnName="Party Name" />
           <ScalarProperty Name="Location" ColumnName="Location" />
@@ -33,11 +65,28 @@
           <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
           <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
           <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CompanyBalance" ColumnName="CompanyBalance" />
+          <ScalarProperty Name="CompanyType" ColumnName="CompanyType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PettyCashes">
+      <EntityTypeMapping TypeName="ZamsModel.PettyCash">
+        <MappingFragment StoreEntitySet="PettyCash">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="RefID" ColumnName="RefID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+          <ScalarProperty Name="OtherDetail" ColumnName="OtherDetail" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Projects">
-      <EntityTypeMapping TypeName="Database1Model.Project">
+      <EntityTypeMapping TypeName="ZamsModel.Project">
         <MappingFragment StoreEntitySet="Projects">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="OwnerPartyId" ColumnName="OwnerPartyId" />
@@ -54,17 +103,33 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Transactions">
-      <EntityTypeMapping TypeName="Database1Model.Transaction">
+      <EntityTypeMapping TypeName="ZamsModel.Transaction">
         <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Amount" ColumnName="Amount" />
           <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
           <ScalarProperty Name="Description" ColumnName="Description" />
           <ScalarProperty Name="OtherDetails" ColumnName="OtherDetails" />
           <ScalarProperty Name="DateTime" ColumnName="DateTime" />
-          <ScalarProperty Name="PayerId" ColumnName="PayerId" />
-          <ScalarProperty Name="RecipientId" ColumnName="RecipientId" />
+          <ScalarProperty Name="PartyId" ColumnName="PartyId" />
           <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="TransactionBalance" ColumnName="TransactionBalance" />
+          <ScalarProperty Name="CompanyBalance" ColumnName="CompanyBalance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReverseEntries">
+      <EntityTypeMapping TypeName="ZamsModel.ReverseEntry">
+        <MappingFragment StoreEntitySet="ReverseEntries">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="trDate" ColumnName="trDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="ReverseID" ColumnName="ReverseID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

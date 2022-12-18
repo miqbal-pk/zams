@@ -13,10 +13,10 @@ namespace ZAMS.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Database1Entities1 : DbContext
+    public partial class ZamsEntities6 : DbContext
     {
-        public Database1Entities1()
-            : base("name=Database1Entities1")
+        public ZamsEntities6()
+            : base("name=ZamsEntities6")
         {
         }
     
@@ -25,10 +25,14 @@ namespace ZAMS.Model
             throw new UnintentionalCodeFirstException();
         }
     
+        public DbSet<Bank> Banks { get; set; }
+        public DbSet<BankTransaction> BankTransactions { get; set; }
         public DbSet<ContractParty> ContractParties { get; set; }
-        public DbSet<Dealer> Dealers { get; set; }
+        public DbSet<Login> Logins { get; set; }
         public DbSet<Party> Parties { get; set; }
+        public DbSet<PettyCash> PettyCashes { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<ReverseEntry> ReverseEntries { get; set; }
     }
 }

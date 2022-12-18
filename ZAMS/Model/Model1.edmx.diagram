@@ -4,19 +4,23 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="86f0663d2a5a4480a715701dddb11ed6" Name="Diagram1">
-        <EntityTypeShape EntityType="Database1Model.ContractParty" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Dealer" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Party" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Project" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Transaction" Width="1.5" PointX="8.25" PointY="9" IsExpanded="true" />
-        <AssociationConnector Association="Database1Model.FK_ContractParty_ToParties" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK_ContractParty_ToProject" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK_Dealer_ToParties" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK_Transactions_ToPayerParty" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK_Transactions_ToRecipientParty" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.ProjectsToParties" ManuallyRouted="false" />
-        <AssociationConnector Association="Database1Model.FK_Transactions_ToProjects" ManuallyRouted="false" />
+      <Diagram DiagramId="3c6585b066f74e90bcb59d5fc6f431e0" Name="Diagram1">
+        <EntityTypeShape EntityType="ZamsModel.Bank" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.BankTransaction" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.ContractParty" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.Login" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.Party" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.PettyCash" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.Project" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZamsModel.Transaction" Width="1.5" PointX="8.25" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="ZamsModel.FK_BankTransactions_Banks1" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamsModel.FK_ContractParty_ToParties" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamsModel.FK_ContractParty_ToProject" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamsModel.FK_Transactions_ToRecipientParty" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamsModel.ProjectsToParties" ManuallyRouted="false" />
+        <AssociationConnector Association="ZamsModel.FK_Transactions_ToProjects" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ZamsModel.ReverseEntry" Width="1.5" PointX="1.252646193491596" PointY="10.468092386828779" IsExpanded="true" />
+        <AssociationConnector Association="ZamsModel.FK_ReverseEntries_Transactions" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

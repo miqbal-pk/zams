@@ -8,14 +8,19 @@ namespace ZAMS.Model
 {
     class TransactionDummy
     {
-        public int Id { get; set; }
-        public long Amount { get; set; }
-        public string TransactionType { get; set; }
+        public System.DateTime Date { get; set; }
+        public int RefId { get; set; }
+        public string Cheque_No { get; set; }
         public string Description { get; set; }
-        public string OtherDetails { get; set; }
-        public System.DateTime DateTime { get; set; }
-        public string PayerName { get; set; }
-        public string RecipientName { get; set; }
-        public string ProjectName { get; set; }
+        public string PartyORProject { get; set; }
+        public string Debit { get; set; }
+        public string Credit { get; set; }
+        //public string TransactionType { get; set; }
+        public string Balance { get; set; }
+        public string UserName { get; set; }
+       
+        //public string PartyName { get; set; }
+        
+      //  public string ProjectName { get; set; }
     }
 }

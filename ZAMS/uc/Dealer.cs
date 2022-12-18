@@ -28,5 +28,10 @@ namespace ZAMS
             ParentForm pf = (ParentForm)this.Parent.Parent.Parent;
             pf.LoadUserControl("NewDealer");
         }
+
+        private void Companies_dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -1,36 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="Database1Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityContainer Name="Database1Model1StoreContainer">
-    <EntitySet Name="ContractParty" EntityType="Database1Model1.Store.ContractParty" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Dealer" EntityType="Database1Model1.Store.Dealer" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Parties" EntityType="Database1Model1.Store.Parties" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Projects" EntityType="Database1Model1.Store.Projects" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Transactions" EntityType="Database1Model1.Store.Transactions" store:Type="Tables" Schema="dbo" />
-    <AssociationSet Name="FK_ContractParty_ToParties" Association="Database1Model1.Store.FK_ContractParty_ToParties">
+<Schema Namespace="ZamsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ZamsModelStoreContainer">
+    <EntitySet Name="ContractParty" EntityType="ZamsModel.Store.ContractParty" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Parties" EntityType="ZamsModel.Store.Parties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Projects" EntityType="ZamsModel.Store.Projects" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Transactions" EntityType="ZamsModel.Store.Transactions" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_ContractParty_ToParties" Association="ZamsModel.Store.FK_ContractParty_ToParties">
       <End Role="Parties" EntitySet="Parties" />
       <End Role="ContractParty" EntitySet="ContractParty" />
     </AssociationSet>
-    <AssociationSet Name="FK_ContractParty_ToProject" Association="Database1Model1.Store.FK_ContractParty_ToProject">
+    <AssociationSet Name="FK_ContractParty_ToProject" Association="ZamsModel.Store.FK_ContractParty_ToProject">
       <End Role="Projects" EntitySet="Projects" />
       <End Role="ContractParty" EntitySet="ContractParty" />
     </AssociationSet>
-    <AssociationSet Name="FK_Dealer_ToParties" Association="Database1Model1.Store.FK_Dealer_ToParties">
-      <End Role="Parties" EntitySet="Parties" />
-      <End Role="Dealer" EntitySet="Dealer" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Transactions_ToPayerParty" Association="Database1Model1.Store.FK_Transactions_ToPayerParty">
-      <End Role="Parties" EntitySet="Parties" />
-      <End Role="Transactions" EntitySet="Transactions" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Transactions_ToProjects" Association="Database1Model1.Store.FK_Transactions_ToProjects">
+    <AssociationSet Name="FK_Transactions_ToProjects" Association="ZamsModel.Store.FK_Transactions_ToProjects">
       <End Role="Projects" EntitySet="Projects" />
       <End Role="Transactions" EntitySet="Transactions" />
     </AssociationSet>
-    <AssociationSet Name="FK_Transactions_ToRecipientParty" Association="Database1Model1.Store.FK_Transactions_ToRecipientParty">
+    <AssociationSet Name="FK_Transactions_ToRecipientParty" Association="ZamsModel.Store.FK_Transactions_ToRecipientParty">
       <End Role="Parties" EntitySet="Parties" />
       <End Role="Transactions" EntitySet="Transactions" />
     </AssociationSet>
-    <AssociationSet Name="ProjectsToParties" Association="Database1Model1.Store.ProjectsToParties">
+    <AssociationSet Name="ProjectsToParties" Association="ZamsModel.Store.ProjectsToParties">
       <End Role="Parties" EntitySet="Parties" />
       <End Role="Projects" EntitySet="Projects" />
     </AssociationSet>
@@ -42,18 +33,6 @@
     </Key>
     <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="ProjectId" Type="int" Nullable="false" />
-    <Property Name="PartyId" Type="int" Nullable="false" />
-  </EntityType>
-  <EntityType Name="Dealer">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
-    <Property Name="DealerName" Type="varchar" Nullable="false" MaxLength="50" />
-    <Property Name="CNIC" Type="varchar" Nullable="false" MaxLength="50" />
-    <Property Name="EmailId" Type="varchar" MaxLength="50" />
-    <Property Name="PhoneNumber" Type="varchar" Nullable="false" MaxLength="50" />
-    <Property Name="Address" Type="varchar" Nullable="false" MaxLength="50" />
     <Property Name="PartyId" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Parties">
@@ -94,13 +73,14 @@
     <Property Name="Description" Type="varchar" MaxLength="50" />
     <Property Name="OtherDetails" Type="varchar" MaxLength="50" />
     <Property Name="DateTime" Type="datetime" Nullable="false" />
-    <Property Name="PayerId" Type="int" Nullable="false" />
-    <Property Name="RecipientId" Type="int" Nullable="false" />
+    <Property Name="PartyId" Type="int" Nullable="false" />
     <Property Name="ProjectId" Type="int" Nullable="false" />
+    <Property Name="PaymentType" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Balance" Type="bigint" Nullable="false" />
   </EntityType>
   <Association Name="FK_ContractParty_ToParties">
-    <End Role="Parties" Type="Database1Model1.Store.Parties" Multiplicity="1" />
-    <End Role="ContractParty" Type="Database1Model1.Store.ContractParty" Multiplicity="*" />
+    <End Role="Parties" Type="ZamsModel.Store.Parties" Multiplicity="1" />
+    <End Role="ContractParty" Type="ZamsModel.Store.ContractParty" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Parties">
         <PropertyRef Name="Id" />
@@ -111,8 +91,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ContractParty_ToProject">
-    <End Role="Projects" Type="Database1Model1.Store.Projects" Multiplicity="1" />
-    <End Role="ContractParty" Type="Database1Model1.Store.ContractParty" Multiplicity="*" />
+    <End Role="Projects" Type="ZamsModel.Store.Projects" Multiplicity="1" />
+    <End Role="ContractParty" Type="ZamsModel.Store.ContractParty" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Projects">
         <PropertyRef Name="Id" />
@@ -122,33 +102,9 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Dealer_ToParties">
-    <End Role="Parties" Type="Database1Model1.Store.Parties" Multiplicity="1" />
-    <End Role="Dealer" Type="Database1Model1.Store.Dealer" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Parties">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Dealer">
-        <PropertyRef Name="PartyId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Transactions_ToPayerParty">
-    <End Role="Parties" Type="Database1Model1.Store.Parties" Multiplicity="1" />
-    <End Role="Transactions" Type="Database1Model1.Store.Transactions" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Parties">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Transactions">
-        <PropertyRef Name="PayerId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="FK_Transactions_ToProjects">
-    <End Role="Projects" Type="Database1Model1.Store.Projects" Multiplicity="1" />
-    <End Role="Transactions" Type="Database1Model1.Store.Transactions" Multiplicity="*" />
+    <End Role="Projects" Type="ZamsModel.Store.Projects" Multiplicity="1" />
+    <End Role="Transactions" Type="ZamsModel.Store.Transactions" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Projects">
         <PropertyRef Name="Id" />
@@ -159,20 +115,20 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Transactions_ToRecipientParty">
-    <End Role="Parties" Type="Database1Model1.Store.Parties" Multiplicity="1" />
-    <End Role="Transactions" Type="Database1Model1.Store.Transactions" Multiplicity="*" />
+    <End Role="Parties" Type="ZamsModel.Store.Parties" Multiplicity="1" />
+    <End Role="Transactions" Type="ZamsModel.Store.Transactions" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Parties">
         <PropertyRef Name="Id" />
       </Principal>
       <Dependent Role="Transactions">
-        <PropertyRef Name="RecipientId" />
+        <PropertyRef Name="PartyId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="ProjectsToParties">
-    <End Role="Parties" Type="Database1Model1.Store.Parties" Multiplicity="1" />
-    <End Role="Projects" Type="Database1Model1.Store.Projects" Multiplicity="*" />
+    <End Role="Parties" Type="ZamsModel.Store.Parties" Multiplicity="1" />
+    <End Role="Projects" Type="ZamsModel.Store.Projects" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Parties">
         <PropertyRef Name="Id" />

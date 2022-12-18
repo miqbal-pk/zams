@@ -1,22 +1,891 @@
-G:\Newest zams\zams\ZAMS\bin\Release\ZAMS.exe.config
-G:\Newest zams\zams\ZAMS\bin\Release\ZAMS.exe
-G:\Newest zams\zams\ZAMS\bin\Release\ZAMS.pdb
-G:\Newest zams\zams\ZAMS\bin\Release\EntityFramework.dll
-G:\Newest zams\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
-G:\Newest zams\zams\ZAMS\bin\Release\EntityFramework.xml
-G:\Newest zams\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.Companies.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.Projects.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.exe
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.pdb
-G:\Newest zams\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\WORK\1.7\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\WORK\1.7\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+E:\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+E:\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+E:\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+E:\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+E:\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+E:\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+E:\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+E:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+E:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+E:\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+E:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+E:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+E:\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\PC-2\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\PC3\Desktop\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\Zams Repository\Zams 6 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\Zams Repository\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\Zams Repository\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\Zams Repository\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\Zams 7 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\Zams 7 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\Zams 9 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\Zams 9 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\Zams 11 june\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\Zams 11 june\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+E:\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+E:\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+E:\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\Zams 23 aug\Zams 23 aug\Zams 23 aug\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\Zams 14 nov 2015\Zams 14 nov 2015\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\Zeeshan Mumtaz\Downloads\Compressed\ZAMS 15 Nov 2015\ZAMS 15 Nov 2015\ZAMS\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\Database1.mdf
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\Database1_log.ldf
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.config
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\ZAMS.application
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\ZAMS.exe
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\ZAMS.pdb
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\EntityFramework.dll
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\itextsharp.dll
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\EntityFramework.xml
+D:\zams 17 nov\ZAMS\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.application
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.exe
+D:\zams 17 nov\ZAMS\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Desktop\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 25 Aug 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Aug 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 4 Sep 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 20 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.ViewUsers.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 23 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.uc.ViewUsers.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 30 Sep 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.ViewUsers.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\Database1.mdf
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.application
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\itextsharp.dll
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+E:\Zams 8 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.ViewUsers.resources
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.application
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.exe
+E:\Zams 8 Oct 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.uc.ViewUsers.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 26 Oct 2016\Zams 26 Oct 2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\Database1.mdf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\Database1_log.ldf
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\ZAMS.application
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\ZAMS.exe
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\ZAMS.pdb
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\EntityFramework.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\itextsharp.dll
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\EntityFramework.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.csprojResolveAssemblyReference.cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.BaseControl.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.ChangePasswordForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.ParentForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.Login_Form.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.Properties.Resources.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.SignUpForm.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.uc.Bank_an_PettyCash_Reports.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.uc.Banks.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.Companies.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.Dealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.NewCompany.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.NewDealer.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.NewProject.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.Projects.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.ReportHome.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.SearchTransactions.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.uc.ViewUsers.resources
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.csproj.GenerateResource.Cache
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.exe.manifest
+C:\Users\sheharyar\Documents\Visual Studio 2012\Projects\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.application
+C:\Users\sheharyar\Desktop\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\bin\Release\ZAMS.exe.config
+C:\Users\sheharyar\Desktop\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.exe
+C:\Users\sheharyar\Desktop\Zams 11 Nov 2016\Zams 11 Nov  2016\zams\ZAMS\obj\Release\ZAMS.pdb

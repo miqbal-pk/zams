@@ -178,6 +178,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label_CompanyName);
             this.Name = "NewCompany";
+            this.Size = new System.Drawing.Size(981, 690);
             this.Load += new System.EventHandler(this.NewCompany_Load);
             this.Controls.SetChildIndex(this.label_CompanyName, 0);
             this.Controls.SetChildIndex(this.label2, 0);

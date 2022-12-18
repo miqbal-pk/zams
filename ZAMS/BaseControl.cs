@@ -12,6 +12,7 @@ namespace ZAMS
 {
     public partial class BaseControl : UserControl
     {
+        public static int status = 0;
         public BaseControl()
         {
             InitializeComponent();

@@ -10,10 +10,13 @@ namespace ZAMS.Model
     {
         public int Id { get; set; }
         public string Party_Name { get; set; }
+        public string OwnerName { get; set; }
         public string Location { get; set; }
         public string PhoneNumber { get; set; }
         public string FaxNumber { get; set; }
-        public string OwnerName { get; set; }
+        public string CompanyBalance { get; set; }
         public string Email { get; set; }
+        public string CompanyType { get; set; }
+        public string CNIC_NTN { get; set; }
     }
 }

@@ -17,9 +17,7 @@ namespace ZAMS.Model
         public Party()
         {
             this.ContractParties = new HashSet<ContractParty>();
-            this.Dealers = new HashSet<Dealer>();
             this.Transactions = new HashSet<Transaction>();
-            this.Transactions1 = new HashSet<Transaction>();
             this.Projects = new HashSet<Project>();
         }
     
@@ -30,11 +28,12 @@ namespace ZAMS.Model
         public string FaxNumber { get; set; }
         public string OwnerName { get; set; }
         public string Email { get; set; }
+        public Nullable<long> CompanyBalance { get; set; }
+        public string CompanyType { get; set; }
+        public string CNIC_NTN { get; set; }
     
         public virtual ICollection<ContractParty> ContractParties { get; set; }
-        public virtual ICollection<Dealer> Dealers { get; set; }
         public virtual ICollection<Transaction> Transactions { get; set; }
-        public virtual ICollection<Transaction> Transactions1 { get; set; }
         public virtual ICollection<Project> Projects { get; set; }
     }
 }

@@ -169,6 +169,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "NewDealer";
+            this.Size = new System.Drawing.Size(981, 690);
             this.Load += new System.EventHandler(this.NewDealer_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);

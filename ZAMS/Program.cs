@@ -16,6 +16,9 @@ namespace ZAMS
         public static string UCTitle_NewCompany = "New Company";
         public static string UCTitle_NewProject = "New Project";
         public static string UCTitle_NewDealer = "New Dealer";
+        public static string UCTitle_Bank = "Bank Management";
+        public static string UCTitle_otherReports = "Reports";
+        public static string UCTitle_ViewUsers = "ViewUsers";
 
 
 
@@ -28,7 +31,7 @@ namespace ZAMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ParentForm());
+            Application.Run(new Login_Form());
         }
     }
 }

@@ -51,6 +51,7 @@
             this.Companies_dataGridView.Name = "Companies_dataGridView";
             this.Companies_dataGridView.Size = new System.Drawing.Size(708, 589);
             this.Companies_dataGridView.TabIndex = 3;
+            this.Companies_dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Companies_dataGridView_CellContentClick);
             // 
             // Dealer
             // 
@@ -59,6 +60,7 @@
             this.Controls.Add(this.link_AddCompany);
             this.Controls.Add(this.Companies_dataGridView);
             this.Name = "Dealer";
+            this.Size = new System.Drawing.Size(982, 690);
             this.Controls.SetChildIndex(this.Companies_dataGridView, 0);
             this.Controls.SetChildIndex(this.link_AddCompany, 0);
             ((System.ComponentModel.ISupportInitialize)(this.Companies_dataGridView)).EndInit();

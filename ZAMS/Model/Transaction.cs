@@ -14,18 +14,27 @@ namespace ZAMS.Model
     
     public partial class Transaction
     {
+        public Transaction()
+        {
+            this.ReverseEntries = new HashSet<ReverseEntry>();
+        }
+    
         public int Id { get; set; }
         public long Amount { get; set; }
         public string TransactionType { get; set; }
         public string Description { get; set; }
         public string OtherDetails { get; set; }
         public System.DateTime DateTime { get; set; }
-        public int PayerId { get; set; }
-        public int RecipientId { get; set; }
+        public int PartyId { get; set; }
         public int ProjectId { get; set; }
+        public string PaymentType { get; set; }
+        public long Balance { get; set; }
+        public long TransactionBalance { get; set; }
+        public Nullable<long> CompanyBalance { get; set; }
+        public string UserName { get; set; }
     
         public virtual Party Party { get; set; }
-        public virtual Party Party1 { get; set; }
         public virtual Project Project { get; set; }
+        public virtual ICollection<ReverseEntry> ReverseEntries { get; set; }
     }
 }

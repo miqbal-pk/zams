@@ -8,12 +8,14 @@ namespace ZAMS.Model
 {
     class PartyReport
     {
-        public string Party_Name { get; set; }
 
-        public string OwnerName { get; set; }
+        public string PartyName { get; set; }
+        public string PartyOwner { get; set; }
+
+        
 
         public long AmountPaid { get; set; }
         public long AmountReceived { get; set; }
-
+        public long Balance { get; set; }
     }
 }
